@@ -1,3 +1,3 @@
 # Causality for data science using quasi-experiments
 
-Interactive Figures: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tliu526/causal-data-science-perspective/blob/master/interactive_figures.ipynb)
+Interactive Figures: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tliu526/causal-data-science-perspective/master?filepath=interactive_figures.ipynb)
