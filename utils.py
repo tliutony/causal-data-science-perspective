@@ -70,11 +70,10 @@ def plot_iv_scatter(x, y, data_df, ax):
     reg = LinearRegression(fit_intercept=True)
     reg.fit(data_df[[x]], data_df[y])
     
-    corr= np.corrcoef(data_df[x], data_df[y])[0,1]
     sns.regplot(x=x, y=y, data=data_df, 
                 scatter_kws=scatter_kws,
                 line_kws=line_kws,
-                label="reg coef: {:.2f}\ncorr: {:.2f}".format(reg.coef_[0], corr),
+                label="reg coef: {:.2f}".format(reg.coef_[0]),
                 ax=ax)
     ax.legend()
 
